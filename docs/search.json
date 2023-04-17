@@ -1,7 +1,7 @@
 [
   {
-    "objectID": "tt_about.html",
-    "href": "tt_about.html",
+    "objectID": "tidy_intro.html",
+    "href": "tidy_intro.html",
     "title": "Introduction",
     "section": "",
     "text": "This project is about recreating awesome screencasts created by David Robinson using python.\nI will try to write pandas code in tidyverse style (e.g extensive use of piping).\nI hope the content will be somehow useful for you :)\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nJan 9, 2023\n\n\nLegos\n\n\nKrystian Korzec\n\n\n\n\n\n\nNo matching items"
@@ -33,5 +33,12 @@
     "title": "Legos",
     "section": "",
     "text": "Intoduction\nMy attempt to recreate David Robinson’s analysis of lego dataset (tidyTuesday from 2022-09-06)\n\n\nLoad datasets\nFirst lets read data!\n\nimport pandas as pd\n\ninventories = pd.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-09-06/inventories.csv.gz')\ninventory_sets = pd.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-09-06/inventory_sets.csv.gz')\nsets = pd.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-09-06/sets.csv.gz')\n\n\nimport os, re\n# get all files\nfiles = os.listdir('../../data-screencasts/lego-data/') \n# concatenate files names and directory path\nfiles_paths = ['../../data-screencasts/lego-data/' + file for file in files] \n# create names for data frames\nnames = [re.sub(r'\\.csv.gz','', name) for name in files]\n# load dataframes into dictionary\nlego_datasets = {key: pd.read_csv(file) for (key, file) in zip(names, files_paths)}\n\n\ninventories.value_counts('set_num')\n\nset_num\n657-2        16\n659-2        12\n666-1        11\n266-2        11\n264-2        11\n             ..\n6397-1        1\n6396384-1     1\n6396-1        1\n6395-1        1\nvwkit-1       1\nName: count, Length: 32348, dtype: int64\n\n\n\nfrom IPython.display import Markdown\nfrom tabulate import tabulate\n\ntable = inventory_sets.head()\n\nMarkdown(tabulate(\n  table,\n  headers=\"keys\"\n))\n\n\n\n\n\ninventory_id\nset_num\nquantity\n\n\n\n\n0\n35\n75911-1\n1\n\n\n1\n35\n75912-1\n1\n\n\n2\n39\n75048-1\n1\n\n\n3\n39\n75053-1\n1\n\n\n4\n50\n4515-1\n1"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Krystian Korzec",
+    "section": "",
+    "text": "Hello\nHi! I’m Krystian and welcome to my personal website!\nI created this space to publish short articles about my private projects.\nIf you have any question don’t hesitate and email me!\n\n\nAbout me\nI’m a Data Scientist and for a daily basis I use R and Python. I’m mostly\ninterested in data analysis, Bayesian Statistics and Data Visualisation."
   }
 ]

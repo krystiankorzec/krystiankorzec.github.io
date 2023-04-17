@@ -8,7 +8,7 @@ website:
     search: true
     left: 
       - text: "Home"
-        file: about.qmd
+        file: index.qmd
       - text: "TidyTuesdays"
         file: tt_about.qmd
       - projects.qmd
