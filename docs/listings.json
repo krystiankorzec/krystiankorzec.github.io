@@ -1,14 +1,14 @@
 [
   {
-    "listing": "/tidy_intro.html",
-    "items": [
-      "/tidytuesdays/legos.html"
-    ]
-  },
-  {
     "listing": "/projects.html",
     "items": [
       "/projects/bdl.html"
+    ]
+  },
+  {
+    "listing": "/tt_about.html",
+    "items": [
+      "/tidytuesdays/legos.html"
     ]
   }
 ]

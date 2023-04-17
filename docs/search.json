@@ -1,7 +1,14 @@
 [
   {
-    "objectID": "tidy_intro.html",
-    "href": "tidy_intro.html",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nBank Danych Lokalnych API wrapper\n\n\nKrystian Korzec\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "tt_about.html",
+    "href": "tt_about.html",
     "title": "Introduction",
     "section": "",
     "text": "This project is about recreating awesome screencasts created by David Robinson using python.\nI will try to write pandas code in tidyverse style (e.g extensive use of piping).\nI hope the content will be somehow useful for you :)\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nJan 9, 2023\n\n\nLegos\n\n\nKrystian Korzec\n\n\n\n\n\n\nNo matching items"
@@ -12,20 +19,6 @@
     "title": "Bank Danych Lokalnych API wrapper",
     "section": "",
     "text": "Recently I have been working on API wrapper for Bank Danych Lokalnych.\nIt’s Polish state service when you can find many interesting statistical data for\ndifferent territorial levels.\nYou can find a R package here BDL"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nBank Danych Lokalnych API wrapper\n\n\nKrystian Korzec\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Krystian Korzec",
-    "section": "",
-    "text": "Hello\nHi! I’m Krystian and welcome to my personal website!\nI created this space to publish short articles about my private projects.\nIf you have any question don’t hesitate and email me!\n\n\nAbout me\nI’m a Data Scientist and for a daily basis I use R and Python. I’m mostly\ninterested in data analysis, Bayesian Statistics and Data Visualisation."
   },
   {
     "objectID": "tidytuesdays/legos.html",
