@@ -1,0 +1,12 @@
+---
+title: "Introduction"
+listing: 
+  contents: tidytuesdays
+  type: table
+---
+
+This project is about recreating awesome [screencasts](https://github.com/dgrtwo/data-screencasts) created by David Robinson using python.
+
+I will try to write pandas code in tidyverse style (e.g extensive use of piping).
+
+I hope the content will be somehow useful for you :)

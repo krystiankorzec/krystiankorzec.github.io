@@ -1,0 +1,53 @@
+---
+title: "Legos"
+date: "2023-01-09"
+author: "Krystian Korzec"
+format: 
+  html: 
+    code-fold: false
+jupyter: python3
+---
+
+### Intoduction
+
+My attempt to recreate David Robinson's analysis of lego dataset (tidyTuesday from 2022-09-06)
+
+### Load datasets
+
+First lets read data!
+
+```{python}
+import pandas as pd
+
+inventories = pd.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-09-06/inventories.csv.gz')
+inventory_sets = pd.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-09-06/inventory_sets.csv.gz')
+sets = pd.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-09-06/sets.csv.gz')
+```
+
+```{python}
+import os, re
+# get all files
+files = os.listdir('../../data-screencasts/lego-data/') 
+# concatenate files names and directory path
+files_paths = ['../../data-screencasts/lego-data/' + file for file in files] 
+# create names for data frames
+names = [re.sub(r'\.csv.gz','', name) for name in files]
+# load dataframes into dictionary
+lego_datasets = {key: pd.read_csv(file) for (key, file) in zip(names, files_paths)}
+```
+
+```{python}
+inventories.value_counts('set_num')
+```
+
+```{python}
+from IPython.display import Markdown
+from tabulate import tabulate
+
+table = inventory_sets.head()
+
+Markdown(tabulate(
+  table,
+  headers="keys"
+))
+```

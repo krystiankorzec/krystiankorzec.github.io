@@ -1,0 +1,10 @@
+---
+title: "Bank Danych Lokalnych API wrapper"
+author: "Krystian Korzec"
+---
+
+Recently I have been working on API wrapper for Bank Danych Lokalnych.\
+It's Polish state service when you can find many interesting statistical data for\
+different territorial levels.
+
+You can find a R package here [BDL](https://github.com/krystiankorzec/bdl)

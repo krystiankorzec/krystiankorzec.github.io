@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  navbar:
+    background: primary
+    search: true
+    left: 
+      - text: "Home"
+        file: about.qmd
+      - text: "TidyTuesdays"
+        file: tt_about.qmd
+      - projects.qmd
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+
+editor: visual
+
+execute: 
+  freeze: auto
