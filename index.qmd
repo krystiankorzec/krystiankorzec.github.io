@@ -11,7 +11,7 @@ about:
     - text: GitHub
       href: https://github.com/krystiankorzec
     - text: Email
-      href: krystek.korzec@gmail.com
+      href: mailto:krystek.korzec@gmail.com
 ---
 
 ### Hello
