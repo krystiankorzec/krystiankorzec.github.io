@@ -22,5 +22,5 @@ If you have any question don't hesitate and email me!
 
 ### About me
 
-I'm a Data Scientist and for a daily basis I use R and Python. I'm mostly\
-interested in data analysis, Bayesian Statistics and Data Visualisation.
+I'm a Data Scientist and on a daily basis I use R and Python. I'm mostly\
+interested in data analysis, Bayesian Statistics and data visualisation.
