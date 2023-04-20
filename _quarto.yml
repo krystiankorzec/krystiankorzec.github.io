@@ -12,6 +12,8 @@ website:
       - text: "TidyTuesdays"
         file: tt_about.qmd
       - projects.qmd
+      - text: "CV"
+        file: krystian_korzec_cv.pdf
 
 format:
   html:
