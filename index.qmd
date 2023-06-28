@@ -1,6 +1,6 @@
 ---
 title: "Krystian Korzec"
-image: IMG_1677.jpeg
+image: IMG_1800.jpg
 about: 
   template: trestles
   image-shape: rounded
