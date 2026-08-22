@@ -59,7 +59,7 @@ Quantitative Full-Stack Data Scientist with over 8 years of experience bridging 
 - Developed causal pricing models to estimate price elasticity (CATE) and optimize product selections, moving beyond pure prediction to direct counterfactual policy optimization.
 - **Tech Stack:** Python, PyMC, Pyomo, GCP, BigQuery, GitHub, Airflow.
 
-### Contract ML Engineer / Data Scientist | Roche (via Seargin)
+### Contract ML Engineer (Part-Time / B2B) | Roche (via Seargin)
 
 **2024 Aug – 2026 Apr | Remote**
 
