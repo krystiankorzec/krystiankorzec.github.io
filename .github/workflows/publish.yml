@@ -25,7 +25,7 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Install TinyTeX
-        uses: quarto-dev/quarto-actions/install-tinytex@v2
+        run: quarto install tinytex --no-prompt
 
       - name: Render Quarto
         uses: quarto-dev/quarto-actions/render@v2
