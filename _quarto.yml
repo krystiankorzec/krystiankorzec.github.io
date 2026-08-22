@@ -7,7 +7,7 @@ website:
   navbar:
     right:
       - text: "About"
-        href: about.qmd
+        href: index.qmd
       - text: "CV"
         href: cv.qmd
       - text: "Causal ML & Projects"
