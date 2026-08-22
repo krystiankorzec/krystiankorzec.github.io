@@ -29,7 +29,7 @@ format:
 - **Phone:** +48 730 555 510
 - **LinkedIn:** [linkedin.com/in/krystian-korzec](https://www.linkedin.com/in/krystiankorzec/)
 - **Email:** [k.korzecds@gmail.com](mailto:k.korzecds@gmail.com)
-- **GitHub:** [github.com/krystian-korzec](https://github.com/krystiankorzec)
+- **GitHub:** [github.com/krystiankorzec](https://github.com/krystiankorzec)
 
 ---
 
