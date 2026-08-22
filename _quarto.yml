@@ -2,18 +2,29 @@ project:
   type: website
 
 website:
-  title: "."
+  title: "Krystian Korzec"
+  description: "Decision Data Science, Causal Inference & Bayesian Statistics"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    right:
+      - text: "About"
+        href: about.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Causal ML & Projects"
+        href: projects/projects_index.qmd
+      - text: "Edu Corner"
+        href: edu/edu_index.qmd
+      - icon: github
+        href: https://github.com/krystiankorzec
+      - icon: linkedin
+        href: https://www.linkedin.com/in/krystiankorzec/
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     toc: true
+    code-fold: show
 
 execute:
   freeze: auto

@@ -1,0 +1,15 @@
+---
+title: "Edu Corner"
+subtitle: "Notes on Bayesian Statistics, Statistical Rethinking & Probability Foundations"
+listing:
+  contents: "."
+  sort: "date desc"
+  type: default # Opcje: default (lista blogowa), table (zwarta tabela), grid (karty)
+  categories: true
+  sort-ui: true
+  filter-ui: true
+page-layout: full
+title-block-banner: true
+---
+
+Personal notes, exercises, and foundational write-ups exploring probabilistic modeling and causal reasoning.

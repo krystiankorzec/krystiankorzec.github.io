@@ -1,5 +1,26 @@
 ---
-title: "About"
+title: "About me"
 ---
 
-About this site
+**Research & Decision Data Scientist**
+
+*Causal Inference | Bayesian Statistics | Mathematical Optimization*
+
+I am a Data Scientist with over 8 years of experience building production-grade probabilistic frameworks, counterfactual decision models, and mathematical optimization systems. My work bridges theoretical rigor—rooted in pure mathematics and econometrics—with strict software engineering practices to deliver scalable research and decision tools under real-world uncertainty.
+
+
+### Core Areas of Research & Engineering
+
+- Causal Inference & Experimentation: Estimating Heterogeneous Treatment Effects ($CATE$), Double Machine Learning ($DML$), synthetic controls, and geo-testing frameworks to quantify the true incremental impact of interventions.
+
+- Bayesian & Probabilistic Modeling: Constructing hierarchical Bayesian models and MCMC sampling workflows ($PyMC$) for elasticity estimation and demand forecasting.
+
+- Stochastic Optimization: Formulating Mixed-Integer Linear Programming ($MILP$) and Sample Average Approximation ($SAA$) pipelines ($Pyomo$) for real-time allocation and operational routing.
+
+- Production Engineering: Packaging analytical engines into modular, testable Python packages with containerized deployments ($Docker$), $CI/CD$, and reproducible data architecture.
+
+### Background & Current Focus
+
+Currently at Allegro, I co-architect geographic experimentation methodologies, causal pricing models, and stochastic contact-allocation systems.
+
+My background combines an **M.Sc. in Quantitative Methods in Economics and Information Systems (MIESI)** from *SGH Warsaw School of Economics* with two years of foundational undergraduate coursework in **Pure Mathematics** at the *University of Warsaw (MIMUW)*.

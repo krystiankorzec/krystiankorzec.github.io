@@ -1,0 +1,8 @@
+---
+title: "DAGs, Confounding, and Conditioning"
+description: "Notes on Week 5 of Statistical Rethinking (2023 edition): why adding post-treatment variables skews causal estimates."
+date: "2026-08-21"
+categories: [Bayesian, DAGs, Rethinking]
+---
+
+TUTAJ TWOJA TREŚĆ...

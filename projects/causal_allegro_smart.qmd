@@ -1,0 +1,11 @@
+---
+title: "Causal Optimization of Allegro Smart Program"
+description: "How to protect flagship Allegro Smart program from fraudulent purchases."
+date: "2026-08-21"
+categories: [Bayesian, DAGs, Causal Inference]
+---
+
+::: {.callout-note appearance="simple"}
+**Code & Infrastructure:** Full implementation, Docker environment, and tests are available on GitHub: [github.com/krystian-korzec/causal-selection-benchmark](https://github.com/krystian-korzec/causal-selection-benchmark)
+:::
+
