@@ -74,7 +74,9 @@ Quantitative Full-Stack Data Scientist with over 8 years of experience bridging 
 
 - Developed and maintained data-intensive statistical applications and analytical pipelines using Python (PySpark, Pandas).
 - Utilized Amazon EMR Studio to perform large-scale data processing tasks for actuarial and analytical workflows.
-- **Tech Stack:** Python, AWS, GitHub, SQL.
+- Designed and deployed orchestration logic using open-source Dagster to govern data pipelines, integrating automated freshness monitoring rules and failure notifications.
+- Upgraded and maintained a live Flask API serving risk scoring models, implementing new features and endpoints to support downstream application requirements.
+- **Tech Stack:** Python, AWS, GitHub, Dagster, SQL
 
 ### Data Science Analyst | Accenture
 
