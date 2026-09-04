@@ -1,0 +1,15 @@
+---
+title: "Causal G-Compution"
+description: "Bayesian observational causal inference & CATE estimation with PyMC to evaluate product feature uplift without A/B tests."
+date: "2026-09-07"
+categories: [Bayesian, DAGs, Causal Inference]
+---
+
+::: {.callout-note appearance="simple"}
+**Code & Infrastructure:** Full implementation, Docker environment, and tests are available on GitHub: [github.com/krystiankorzec/bayesian-causal-feature-impact](https://github.com/krystiankorzec/bayesian-causal-feature-impact)
+:::
+
+In B2B SaaS, randomized controlled trials (RCTs) are often impossible. You cannot forcibly disable a major workflow feature for 50% of your enterprise accounts just to run a clean experiment. When forced to rely on observational telemetry, standard regression and naive $p$-values frequently mislead product roadmaps. This post demonstrates how combining causal DAGs with Bayesian G-computation recovers true conditional average treatment effects (CATE) from noisy product data.
+
+
+TBC
