@@ -1,6 +1,6 @@
 ---
 title: "Krystian Korzec"
-subtitle: "Full-Stack Data Scientist | Causal Inference & Bayesian Modeling"
+subtitle: "Senior Data Scientist | Causal Inference, Experimentation & Product Analytics"
 format:
   html:
     toc: true
@@ -36,6 +36,7 @@ format:
 ## Professional Summary
 
 Quantitative Full-Stack Data Scientist with over 8 years of experience bridging rigorous statistical methodology with production-grade software engineering. Specialized in Causal Inference, Bayesian Statistics, and mathematical optimization. Proven track record of developing end-to-end analytical solutions—from estimating heterogeneous treatment effects (CATE) to architecting containerized, production-ready web applications (PyShiny) and scalable data pipelines. Adept at managing the full lifecycle of data products using a modern cloud and database stack.
+Proven track record of translating complex statistical logic into actionable product strategy and measurable business outcomes.
 
 ---
 
@@ -55,8 +56,9 @@ Quantitative Full-Stack Data Scientist with over 8 years of experience bridging 
 **2024 Jul – Present | Warsaw, Poland**
 
 - Formulated and deployed hierarchical Bayesian predictive models and Sample Average Approximation workflows (Project Charon) for real-time contact allocation under operational uncertainty.
-- Designed the online A/B experimentation strategy for the Best Price Guarantee program, enabling precise causal evaluation and optimization of pricing interventions across high-volume marketplace offers.
+- Designed the online A/B experimentation strategy for the Best Price Guarantee program, enabling precise causal evaluation and optimization of pricing interventions across high-volume marketplace offers, processing millions of daily offer updates.
 - Developed causal pricing models to estimate price elasticity (CATE) and optimize product selections, moving beyond pure prediction to direct counterfactual policy optimization.
+- Engineered production MLOps pipelines on GCP (BigQuery, Airflow) with automated model monitoring, bridging complex statistical logic with high-availability systems.
 - **Tech Stack:** Python, PyMC, Pyomo, GCP, BigQuery, GitHub, Airflow.
 
 ### Contract ML Engineer (Part-Time / B2B) | Roche (via Seargin)
