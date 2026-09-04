@@ -41,7 +41,7 @@ Quantitative Full-Stack Data Scientist with over 8 years of experience bridging 
 
 ## Key Competencies & Tech Stack
 
-- **Causal Inference & Experimentation:** Heterogeneous Treatment Effect (CATE) estimation, Double Machine Learning, A/B Testing, Synthetic Controls, Geo-experimentation, Uplift Modeling.
+- **Causal Inference & Experimentation:** Heterogeneous Treatment Effect (CATE) estimation, Double Machine Learning, A/B Testing, Synthetic Controls, Online Experimental Design, Uplift Modeling.
 - **Statistical & Optimization Methods:** Hierarchical Bayesian Modeling, MCMC simulation, Mixed-Integer Linear Programming, Stochastic Optimization (SAA).
 - **Programming & Libraries:** Python (Pandas, Polars, Scikit-learn, PyMC, Pyomo, PyShiny), R, Advanced SQL, PySpark.
 - **Cloud, Infrastructure & Databases:** GCP (BigQuery), AWS, Snowflake, MongoDB, Redis, Docker, CI/CD, Git, Airflow.
@@ -55,7 +55,7 @@ Quantitative Full-Stack Data Scientist with over 8 years of experience bridging 
 **2024 Jul – Present | Warsaw, Poland**
 
 - Formulated and deployed hierarchical Bayesian predictive models and Sample Average Approximation workflows (Project Charon) for real-time contact allocation under operational uncertainty.
-- Co-architected the methodology for geographic experimentation frameworks (geo-testing/synthetic controls) to robustly measure the causal impact of pricing interventions.
+- Designed the online A/B experimentation strategy for the Best Price Guarantee program, enabling precise causal evaluation and optimization of pricing interventions across high-volume marketplace offers.
 - Developed causal pricing models to estimate price elasticity (CATE) and optimize product selections, moving beyond pure prediction to direct counterfactual policy optimization.
 - **Tech Stack:** Python, PyMC, Pyomo, GCP, BigQuery, GitHub, Airflow.
 
