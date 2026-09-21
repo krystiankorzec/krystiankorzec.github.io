@@ -1,0 +1,16 @@
+{
+  "hash": "f4a99e851cd9cb59c2d357b062f4fc00",
+  "result": {
+    "markdown": "---\ntitle: \"DAGs, Confounding, and Conditioning\"\ndescription: \"Notes on Week 5 of Statistical Rethinking (2023 edition): why adding post-treatment variables skews causal estimates.\"\ndate: \"2026-08-21\"\ncategories: [Bayesian, DAGs, Rethinking]\n---\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(dagitty)\n\ndag <- dagitty('dag {\n  Treatment -> Outcome\n  Confounder -> Treatment\n  Confounder -> Outcome\n  Treatment -> PostTreatment -> Outcome\n}')\n\nplot(dag)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nPlot coordinates for graph not supplied! Generating coordinates, see ?coordinates for how to set your own.\n```\n:::\n\n::: {.cell-output-display}\n![](rethinking-05_files/figure-html/dag-definition-1.png){width=576}\n:::\n:::",
+    "supporting": [
+      "rethinking-05_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

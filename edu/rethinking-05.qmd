@@ -5,4 +5,22 @@ date: "2026-08-21"
 categories: [Bayesian, DAGs, Rethinking]
 ---
 
-To be published...
+```{r setup, include=FALSE}
+reticulate::use_virtualenv(here::here(".venv"))
+```
+
+```{r dag-definition}
+#| fig-width: 6
+#| fig-height: 4
+
+library(dagitty)
+
+dag <- dagitty('dag {
+  Treatment -> Outcome
+  Confounder -> Treatment
+  Confounder -> Outcome
+  Treatment -> PostTreatment -> Outcome
+}')
+
+plot(dag)
+```

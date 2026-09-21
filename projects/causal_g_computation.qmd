@@ -1,15 +1,45 @@
 ---
-title: "Causal G-Compution"
-description: "Bayesian observational causal inference & CATE estimation with PyMC to evaluate product feature uplift without A/B tests."
-date: "2026-09-07"
-categories: [Bayesian, DAGs, Causal Inference]
+title: "Bayesian Causal Uplift"
+description: "Estimating heterogeneous treatment effects (CATE) from observational engagement logs using DAGs and PyMC."date: "2026-09-07"
+categories: [Bayesian, DAGs, Causal Inference, PyMC]
 ---
 
 ::: {.callout-note appearance="simple"}
-**Code & Infrastructure:** Full implementation, Docker environment, and tests are available on GitHub: [github.com/krystiankorzec/bayesian-causal-feature-impact](https://github.com/krystiankorzec/bayesian-causal-feature-impact)
+**Code & Infrastructure:** Full implementation, Docker environment, and tests are available on GitHub: [github.com/krystiankorzec/bayesian-causal-uplift](https://github.com/krystiankorzec/bayesian-causal-uplift)
 :::
 
-In B2B SaaS, randomized controlled trials (RCTs) are often impossible. You cannot forcibly disable a major workflow feature for 50% of your enterprise accounts just to run a clean experiment. When forced to rely on observational telemetry, standard regression and naive $p$-values frequently mislead product roadmaps. This post demonstrates how combining causal DAGs with Bayesian G-computation recovers true conditional average treatment effects (CATE) from noisy product data.
+In high-volume digital products and lifecycle marketing, randomized experiments (RCTs) are not always available or feasible. Whether evaluating the impact of past promotional campaigns, analyzing user-selected communication frequency, or working with observational feature logs, naive regression models frequently mislead decision-making. 
 
+When highly active users naturally self-select into higher message exposures or feature usage, standard ML models learn correlations that severely overestimate the true incremental uplift.
 
-TBC
+This post demonstrates how combining causal Directed Acyclic Graphs (DAGs) with **Bayesian G-computation (standardization)** isolates true Conditional Average Treatment Effects (CATE) from observational telemetry while providing full posterior uncertainty for policy decisioning.
+
+---
+
+## The Confounding Trap in Engagement Logs
+
+Consider a common scenario: evaluating whether sending an additional targeted communication ($A \in \{0, 1\}$) increases user conversion ($Y$).
+
+In historical logs, highly engaged users ($X$) are significantly more likely to receive or open communications ($A=1$) and are also naturally more likely to convert ($Y=1$) regardless of the message.
+
+$$\begin{aligned} X &\longrightarrow A \\ X &\longrightarrow Y \\ A &\longrightarrow Y \end{aligned}$$
+
+If we fit a standard supervised model to predict $Y$ given $A$ and $X$, the model estimates the conditional expectation $E[Y \mid A=1, X]$. However, for decision-making and policy optimization, we require the **interventional expectation** $E[Y(A=1) \mid X]$—what would happen if we *forced* the treatment across the population.
+
+---
+
+## The Solution: Bayesian G-Computation
+
+G-computation (G-formula standardization) bridges observational telemetry and counterfactual inference in three steps:
+
+1. **Parametric Outcome Modeling:** Fit a statistical model $P(Y \mid A, X, \theta)$ over the observed data.
+2. **Counterfactual Simulation:** For every user in the target dataset, clone the covariate matrix $X$ twice:
+   - Force $A = 1$ to simulate the treated outcome $Y(1)$
+   - Force $A = 0$ to simulate the untreated outcome $Y(0)$
+3. **Marginalization & CATE Estimation:** Compute the posterior distribution of incremental uplift:
+
+$$\text{CATE}(x) = E[Y \mid A=1, X=x, \theta] - E[Y \mid A=0, X=x, \theta]$$
+
+By integrating Bayesian priors into the outcome model (e.g., using `PyMC`), we don't just get a point-estimate of CATE—we obtain a full posterior distribution over the incremental uplift, giving us built-in safety guardrails against negative treatment effects.
+
+---

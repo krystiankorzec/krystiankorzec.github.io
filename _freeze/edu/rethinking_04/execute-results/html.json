@@ -1,0 +1,14 @@
+{
+  "hash": "fbb6c841ccabbc80b7bc67a705bccb2f",
+  "result": {
+    "markdown": "---\ntitle: \"Ulysses’ Compass\"\ndescription: \"Notes on Week 4 of Statistical Rethinking (2023 edition): over-fitting, model comparison and information theory basics.\"\ndate: \"2026-09-10\"\ncategories: [Bayesian, DAGs, Rethinking]\nengine: knitr\nformat:\n  html:\n    code-fold: true\n    code-summary: \"Show the code\"\n---\n\n\n\n::: {.cell}\n\n```{.python .cell-code}\nimport pandas as pd\nfrom pyprojroot import here\n\ndivorce_df = pd.read_csv(here('edu/data/WaffleDivorce.csv'), sep=';')\ndivorce_df.sample(3)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n         Location Loc  Population  ...  Slaves1860  Population1860  PropSlaves1860\n10        Georgia  GA        9.69  ...      462198         1057286            0.44\n28  New Hampshire  NH        1.32  ...           0          326073            0.00\n11         Hawaii  HI        1.36  ...           0               0            0.00\n\n[3 rows x 13 columns]\n```\n:::\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
