@@ -1,6 +1,7 @@
 ---
 title: "Bayesian Causal Uplift"
-description: "Estimating heterogeneous treatment effects (CATE) from observational engagement logs using DAGs and PyMC."date: "2026-09-07"
+description: "Estimating heterogeneous treatment effects (CATE) from observational engagement logs using DAGs and PyMC."
+date: "2026-09-07"
 categories: [Bayesian, DAGs, Causal Inference, PyMC]
 ---
 
