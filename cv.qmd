@@ -27,7 +27,7 @@ format:
 
 - **Location:** Warsaw, Poland
 - **Phone:** +48 730 555 510
-- **LinkedIn:** [linkedin.com/in/krystian-korzec](https://www.linkedin.com/in/krystiankorzec/)
+- **LinkedIn:** [linkedin.com/in/krystiankorzec](https://www.linkedin.com/in/krystiankorzec/)
 - **Email:** [k.korzecds@gmail.com](mailto:k.korzecds@gmail.com)
 - **GitHub:** [github.com/krystiankorzec](https://github.com/krystiankorzec)
 
