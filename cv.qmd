@@ -1,6 +1,6 @@
 ---
 title: "Krystian Korzec"
-subtitle: "Senior Data Scientist | Causal Inference, Experimentation & Product Analytics"
+subtitle: "Data Scientist | Causal Inference, Experimentation & Product Analytics"
 format:
   html:
     toc: true
@@ -92,7 +92,6 @@ Proven track record of translating complex statistical logic into actionable pro
 
 **2021 Jan – 2022 Sep | Warsaw, Poland**
 
-- Designed and deployed causal uplift models (Heterogeneous Treatment Effects) for targeted retention campaigns, successfully isolating the true incremental impact of marketing interventions from organic behavior.
 - Built predictive models for early detection of at-risk users, transitioning the analytical focus towards proactive intervention strategies.
 - Architected analytical infrastructure and end-to-end data pipelines leveraging AWS and Snowflake.
 - **Tech Stack:** Python, R, Snowflake, GitHub, Docker, AWS.
