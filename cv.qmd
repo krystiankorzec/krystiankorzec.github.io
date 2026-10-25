@@ -1,6 +1,6 @@
 ---
 title: "Krystian Korzec"
-subtitle: "Data Scientist | Causal Inference, Experimentation & Product Analytics"
+subtitle: "Senior Data Scientist | Decision Optimization, Bayesian Modeling & Causal Inference"
 format:
   html:
     toc: true
@@ -35,18 +35,17 @@ format:
 
 ## Professional Summary
 
-Quantitative Full-Stack Data Scientist with over 8 years of experience bridging rigorous statistical methodology with production-grade software engineering. Specialized in Causal Inference, Bayesian Statistics, and mathematical optimization. Proven track record of developing end-to-end analytical solutions—from estimating heterogeneous treatment effects (CATE) to architecting containerized, production-ready web applications (PyShiny) and scalable data pipelines. Adept at managing the full lifecycle of data products using a modern cloud and database stack.
-Proven track record of translating complex statistical logic into actionable product strategy and measurable business outcomes.
+Quantitative Senior Data Scientist with over 8 years of experience bridging rigorous statistical methodology with production-grade software engineering. Specialized in Decision Optimization under Uncertainty, Bayesian Statistics, Causal Inference, and A/B Experimentation. Proven track record of architecting end-to-end analytical solutions—from linear programming and hierarchical Bayesian modeling to containerized, production-ready web applications (PyShiny) and scalable GCP data pipelines. Adept at transforming ambiguous business problems into scientifically grounded algorithms that drive measurable margin and operational improvements.
 
 ---
 
 ## Key Competencies & Tech Stack
 
-- **Causal Inference & Experimentation:** Heterogeneous Treatment Effect (CATE) estimation, Double Machine Learning, A/B Testing, Synthetic Controls, Online Experimental Design, Uplift Modeling.
-- **Statistical & Optimization Methods:** Hierarchical Bayesian Modeling, MCMC simulation, Mixed-Integer Linear Programming, Stochastic Optimization (SAA).
-- **Programming & Libraries:** Python (Pandas, Polars, Scikit-learn, PyMC, Pyomo, PyShiny), R, Advanced SQL, PySpark.
-- **Cloud, Infrastructure & Databases:** GCP (BigQuery), AWS, Snowflake, MongoDB, Redis, Docker, CI/CD, Git, Airflow.
-
+- **Optimization & Decision Making:** Constrained Optimization, Mixed-Integer Linear Programming (MILP)
+- **Statistical & Bayesian Modeling:** Hierarchical Bayesian Modeling, MCMC Simulation, Probabilistic Programming, Causal Inference.
+- **Experimentation & Product Analytics:** Online A/B Testing Strategy, Experimental Design, Synthetic Controls
+- **Programming & Libraries:** Python (PyMC, Pyomo, Scikit-learn, Polars, Pandas, PyShiny), R, Advanced SQL, PySpark.
+- **Cloud, Infrastructure & MLOps:** GCP (BigQuery, Airflow), AWS, Snowflake, Redis, Docker, CI/CD, Git.
 ---
 
 ## Employment History
