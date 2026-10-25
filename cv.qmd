@@ -57,7 +57,7 @@ Proven track record of translating complex statistical logic into actionable pro
 
 - Formulated and deployed hierarchical Bayesian predictive models and Sample Average Approximation workflows (Project Charon) for real-time contact allocation under operational uncertainty.
 - Designed the online A/B experimentation strategy for the Best Price Guarantee program, enabling precise causal evaluation and optimization of pricing interventions across high-volume marketplace offers, processing millions of daily offer updates.
-- Developed causal pricing models to estimate price elasticity (CATE) and optimize product selections, moving beyond pure prediction to direct counterfactual policy optimization.
+- Developed ML pricing models to estimate price elasticity and optimize product selections
 - Engineered production MLOps pipelines on GCP (BigQuery, Airflow) with automated model monitoring, bridging complex statistical logic with high-availability systems.
 - **Tech Stack:** Python, PyMC, Pyomo, GCP, BigQuery, GitHub, Airflow.
 
