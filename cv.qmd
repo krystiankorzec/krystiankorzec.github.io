@@ -46,6 +46,7 @@ Quantitative Senior Data Scientist with over 8 years of experience bridging rigo
 - **Experimentation & Product Analytics:** Online A/B Testing Strategy, Experimental Design, Synthetic Controls
 - **Programming & Libraries:** Python (PyMC, Pyomo, Scikit-learn, Polars, Pandas, PyShiny), R, Advanced SQL, PySpark.
 - **Cloud, Infrastructure & MLOps:** GCP (BigQuery, Airflow), AWS, Snowflake, Redis, Docker, CI/CD, Git.
+
 ---
 
 ## Employment History
