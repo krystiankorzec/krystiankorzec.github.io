@@ -8,12 +8,12 @@ format:
   pdf:
     output-file: "Krystian_Korzec_CV.pdf"
     geometry:
-      - top=15mm
-      - left=15mm
-      - right=15mm
-      - bottom=15mm
+      - top=10mm
+      - bottom=12mm
+      - left=12mm
+      - right=12mm
     fontsize: 10pt
-    linestretch: 1.15
+    linestretch: 1.0
     colorlinks: true
 ---
 
@@ -24,96 +24,80 @@ format:
 :::
 
 ## Contact Information
-
-- **Location:** Warsaw, Poland
-- **Phone:** +48 730 555 510
-- **LinkedIn:** [linkedin.com/in/krystiankorzec](https://www.linkedin.com/in/krystiankorzec/)
-- **Email:** [k.korzecds@gmail.com](mailto:k.korzecds@gmail.com)
-- **GitHub:** [github.com/krystiankorzec](https://github.com/krystiankorzec)
-
----
+**Location:** Warsaw, Poland | **Phone:** +48 730 555 510 | **Email:** [k.korzecds@gmail.com](mailto:k.korzecds@gmail.com) | **LinkedIn:** [linkedin.com/in/krystiankorzec](https://www.linkedin.com/in/krystiankorzec/) | **GitHub:** [github.com/krystiankorzec](https://github.com/krystiankorzec)
 
 ## Professional Summary
-
 Quantitative Senior Data Scientist with over 8 years of experience bridging rigorous statistical methodology with production-grade software engineering. Specialized in Decision Optimization under Uncertainty, Bayesian Statistics, Causal Inference, and A/B Experimentation. Proven track record of architecting end-to-end analytical solutions—from linear programming and hierarchical Bayesian modeling to containerized, production-ready web applications (PyShiny) and scalable GCP data pipelines. Adept at transforming ambiguous business problems into scientifically grounded algorithms that drive measurable margin and operational improvements.
 
----
-
 ## Key Competencies & Tech Stack
-
 - **Optimization & Decision Making:** Constrained Optimization, Mixed-Integer Linear Programming (MILP)
 - **Statistical & Bayesian Modeling:** Hierarchical Bayesian Modeling, MCMC Simulation, Probabilistic Programming, Causal Inference.
 - **Experimentation & Product Analytics:** Online A/B Testing Strategy, Experimental Design, Synthetic Controls
 - **Programming & Libraries:** Python (PyMC, Pyomo, Scikit-learn, Polars, Pandas, PyShiny), R, Advanced SQL, PySpark.
 - **Cloud, Infrastructure & MLOps:** GCP (BigQuery, Airflow), AWS, Snowflake, Redis, Docker, CI/CD, Git.
 
----
-
 ## Employment History
 
 ### Data Scientist | Allegro
-
 **2024 Jul – Present | Warsaw, Poland**
-
 - Formulated and deployed hierarchical Bayesian predictive models and Sample Average Approximation workflows (Project Charon) for real-time contact allocation under operational uncertainty.
-- Designed the online A/B experimentation strategy for the Best Price Guarantee program, enabling precise causal evaluation and optimization of pricing interventions across high-volume marketplace offers, processing millions of daily offer updates.
-- Developed ML pricing models to estimate price elasticity and optimize product selections
-- Engineered production MLOps pipelines on GCP (BigQuery, Airflow) with automated model monitoring, bridging complex statistical logic with high-availability systems.
+- Designed the online A/B experimentation strategy for the Best Price Guarantee program, enabling precise causal evaluation and optimization of pricing interventions across high-volume marketplace offers.
+- Developed ML pricing models to estimate price elasticity and optimize product selections.
+- Engineered production MLOps pipelines on GCP (BigQuery, Airflow) with automated model monitoring.
 - **Tech Stack:** Python, PyMC, Pyomo, GCP, BigQuery, GitHub, Airflow.
 
 ### Contract ML Engineer (Part-Time / B2B) | Roche (via Seargin)
-
 **2024 Aug – 2026 Apr | Remote**
-
-- Designed and deployed a full-stack, AI-driven platform (PyShiny web app) to automate the generation of complex non-clinical statistical reports, significantly reducing manual research overhead.
+- Designed and deployed a full-stack, AI-driven platform (PyShiny web app) to automate the generation of complex non-clinical statistical reports.
 - Architected the application infrastructure using containerized deployments (Docker) integrated with robust CI/CD pipelines.
-- Implemented state management using Redis and established comprehensive testing to ensure the high performance and reliability of the analytical tools.
+- Implemented state management using Redis and established comprehensive testing.
 - **Tech Stack:** Python, R, PyShiny, Docker, GitLab, Redis, Gemini API.
 
 ### Data Scientist | Allianz
-
 **2023 Jul – 2024 Jul | Warsaw, Poland**
-
 - Developed and maintained data-intensive statistical applications and analytical pipelines using Python (PySpark, Pandas).
 - Utilized Amazon EMR Studio to perform large-scale data processing tasks for actuarial and analytical workflows.
-- Designed and deployed orchestration logic using open-source Dagster to govern data pipelines, integrating automated freshness monitoring rules and failure notifications.
-- Upgraded and maintained a live Flask API serving risk scoring models, implementing new features and endpoints to support downstream application requirements.
-- **Tech Stack:** Python, AWS, GitHub, Dagster, SQL
+- Designed and deployed orchestration logic using open-source Dagster to govern data pipelines.
+- Upgraded and maintained a live Flask API serving risk scoring models.
+- **Tech Stack:** Python, AWS, GitHub, Dagster, SQL.
 
 ### Data Science Analyst | Accenture
-
 **2022 Nov – 2023 Jul | Warsaw, Poland**
-
 - Delivered analytical solutions solving complex allocation problems using Integer Programming (Pyomo) and Supply Chain Optimization techniques.
-- Spearheaded the refactoring of legacy statistical R code into scalable PySpark/R solutions in Azure Databricks, drastically reducing execution time and enforcing engineering rigor.
+- Spearheaded the refactoring of legacy statistical R code into scalable PySpark/R solutions in Azure Databricks.
 - **Tech Stack:** Python, GCP, Databricks, GitHub, PySpark.
 
 ### Data Scientist | Nowa Era
-
 **2021 Jan – 2022 Sep | Warsaw, Poland**
-
 - Built predictive models for early detection of at-risk users, transitioning the analytical focus towards proactive intervention strategies.
 - Architected analytical infrastructure and end-to-end data pipelines leveraging AWS and Snowflake.
 - **Tech Stack:** Python, R, Snowflake, GitHub, Docker, AWS.
 
 ### Data Scientist | PKO BP
-
 **2018 Jul – 2021 Jan | Warsaw, Poland** *(Promoted to Data Scientist following a 6-month Data Science Internship)*
-
 - Utilized spatial analytics and statistical segmentation to build Automated Valuation Models (AVM) for real estate pricing prediction.
 - Engineered automated monitoring pipelines to track model stability and detect geographic feature drift.
 - **Tech Stack:** Python, Hadoop, SQL.
 
----
-
 ## Education
 
 ### Warsaw School of Economics (SGH)
-
 **Master's Degree in Quantitative Methods in Economics and Information Systems (MIESI)**
 - **Master Thesis:** *Spatio-Temporal Bayesian Model of PM2.5 and PM10 Air Pollution*
 
 ### University of Warsaw (MIMUW)
-
 **Completed 2 Years of B.Sc. Coursework in Pure Mathematics**
-- Built a rigorous theoretical foundation in probability theory, real analysis, and linear algebra supporting advanced statistical modeling.
+- Built a rigorous theoretical foundation in probability theory, real analysis, and linear algebra.
+
+::: {.content-visible when-format="pdf"}
+\vfill
+\begin{center}
+\tiny\color{gray}
+Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. U. ustawy z 2018 r. poz. 1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO)).
+\end{center}
+:::
+
+::: {.content-visible when-format="html"}
+---
+<small style="color: gray;">Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z RODO).</small>
+:::
