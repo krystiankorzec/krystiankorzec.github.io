@@ -6,15 +6,18 @@ format:
     toc: true
     title-block-banner: false
   pdf:
-    output-file: "Krystian_Korzec_CV.pdf"
+    output-file: "Krystian_Korzec_Senior_Data_Scientist.pdf"
     geometry:
-      - top=15mm
-      - left=15mm
-      - right=15mm
-      - bottom=15mm
-    fontsize: 10pt
-    linestretch: 1.15
+      - top=10mm
+      - bottom=10mm
+      - left=12mm
+      - right=12mm
+    fontsize: 9.5pt
+    linestretch: 1.0
     colorlinks: true
+    header-includes:
+      - \usepackage{enumitem}
+      - \setlist{nosep, topsep=1.5pt, parsep=1pt}
 ---
 
 ::: {.content-visible when-format="html"}
