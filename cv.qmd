@@ -101,7 +101,7 @@ Quantitative Senior Data Scientist with over 8 years of experience bridging rigo
 **2018 Jul – 2021 Jan | Warsaw, Poland** *(Promoted to Data Scientist following a 6-month Data Science Internship)*
 
 - Utilized spatial analytics and statistical segmentation to build Automated Valuation Models (AVM) for real estate pricing prediction.
-- Engineered automated monitoring pipelines to track model stability and detect geographic feature drift.
+- Technical owner of monthly credit risk reporting process.
 - **Tech Stack:** Python, Hadoop, SQL.
 
 ---
