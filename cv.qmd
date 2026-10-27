@@ -1,6 +1,6 @@
 ---
 title: "Krystian Korzec"
-subtitle: "Senior Data Scientist | Decision Optimization, Bayesian Modeling & Causal Inference"
+subtitle: "Data Scientist | Decision Optimization, Bayesian Modeling & Causal Inference"
 format:
   html:
     toc: true
@@ -41,11 +41,10 @@ Quantitative Senior Data Scientist with over 8 years of experience bridging rigo
 
 ## Key Competencies & Tech Stack
 
-- **Optimization & Decision Making:** Constrained Optimization, Mixed-Integer Linear Programming (MILP)
-- **Statistical & Bayesian Modeling:** Hierarchical Bayesian Modeling, MCMC Simulation, Probabilistic Programming, Causal Inference.
-- **Experimentation & Product Analytics:** Online A/B Testing Strategy, Experimental Design, Synthetic Controls
-- **Programming & Libraries:** Python (PyMC, Pyomo, Scikit-learn, Polars, Pandas, PyShiny), R, Advanced SQL, PySpark.
-- **Cloud, Infrastructure & MLOps:** GCP (BigQuery, Airflow), AWS, Snowflake, Redis, Docker, CI/CD, Git.
+- **Machine Learning & Predictive Modeling:** Gradient Boosting (XGBoost, CatBoost), Scikit-Learn, Hierarchical Bayesian Modeling, Customer/Partner Segmentation, Model Explainability (SHAP).
+- **Experimentation & Causal Inference:** Online A/B Testing Strategy, Experimental Design, Synthetic Controls, Causal Impact Evaluation.
+- **Programming & Data Engineering:** Advanced SQL (BigQuery, PostgreSQL), Python (Polars, Pandas, PyMC, Pyomo, Scikit-learn, PyShiny), R, PySpark.
+- **Cloud, Infrastructure & MLOps:** GCP (BigQuery, Airflow), Docker, CI/CD, Git, AWS, Snowflake.
 
 ---
 
@@ -55,20 +54,13 @@ Quantitative Senior Data Scientist with over 8 years of experience bridging rigo
 
 **2024 Jul – Present | Warsaw, Poland**
 
-- Formulated and deployed hierarchical Bayesian predictive models and Sample Average Approximation workflows (Project Charon) for real-time contact allocation under operational uncertainty.
-- Designed the online A/B experimentation strategy for the Best Price Guarantee program, enabling precise causal evaluation and optimization of pricing interventions across high-volume marketplace offers, processing millions of daily offer updates.
-- Mantained ML pricing models to estimate price elasticity and optimize product selections
-- Engineered production MLOps pipelines on GCP (BigQuery, Airflow) with automated model monitoring, bridging complex statistical logic with high-availability systems.
-- **Tech Stack:** Python, PyMC, Pyomo, GCP, BigQuery, GitHub, Airflow.
+- Architected and deployed end-to-end predictive and optimization workflows (Project Charon) for real-time seller/partner contact allocation under operational uncertainty, directly enhancing partner support efficiency.
+- Designed and statistically evaluated online A/B experimentation frameworks for the Best Price Guarantee program, quantifying causal impacts across millions of daily seller offer updates.
+- Maintained and optimized production machine learning pricing models to estimate price elasticity and refine automated product selection algorithms.
+- Engineered resilient MLOps pipelines on GCP (BigQuery, Airflow) with automated model monitoring, connecting sophisticated statistical algorithms with high-availability systems.
+- Partnered closely with internal product and business stakeholders to translate operational needs into actionable Data & AI solutions.
 
-### Contract ML Engineer (Part-Time / B2B) | Roche (via Seargin)
-
-**2024 Aug – 2026 Apr | Remote**
-
-- Designed and deployed a full-stack, AI-driven platform (PyShiny web app) to automate the generation of complex non-clinical statistical reports, significantly reducing manual research overhead.
-- Architected the application infrastructure using containerized deployments (Docker) integrated with robust CI/CD pipelines.
-- Implemented state management using Redis and established comprehensive testing to ensure the high performance and reliability of the analytical tools.
-- **Tech Stack:** Python, R, PyShiny, Docker, GitLab, Redis, Gemini API.
+**Tech Stack:** Python, GCP (BigQuery, Airflow), PyMC, Pyomo, GitHub, SQL.
 
 ### Data Scientist | Allianz
 
