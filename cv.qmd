@@ -28,13 +28,14 @@ format:
 - **Location:** Warsaw, Poland
 - **Phone:** +48 730 555 510
 - **LinkedIn:** [linkedin.com/in/krystiankorzec](https://www.linkedin.com/in/krystiankorzec/)
-- **Email:** [krystian.korzec@allegro.pl](mailto:krystian.korzec@allegro.com) *(work)* | [k.korzecds@gmail.com](mailto:k.korzecds@gmail.com) *(personal)*- **GitHub:** [github.com/krystiankorzec](https://github.com/krystiankorzec)
+- **Email:** [krystian.korzec@allegro.pl](mailto:krystian.korzec@allegro.com) *(work)* | [k.korzecds@gmail.com](mailto:k.korzecds@gmail.com) *(personal)*
+- **GitHub:** [github.com/krystiankorzec](https://github.com/krystiankorzec)
 
 ---
 
 ## Professional Summary
 
-Quantitative Senior Data Scientist with over 8 years of experience bridging rigorous statistical methodology with production-grade software engineering. Specialized in Decision Optimization under Uncertainty, Bayesian Statistics, Causal Inference, and A/B Experimentation. Proven track record of architecting end-to-end analytical solutions—from linear programming and hierarchical Bayesian modeling to containerized, production-ready web applications (PyShiny) and scalable GCP data pipelines. Adept at transforming ambiguous business problems into scientifically grounded algorithms that drive measurable margin and operational improvements.
+Quantitative Data Scientist with over 8 years of experience bridging rigorous statistical methodology with production-grade software engineering. Specialized in Decision Optimization under Uncertainty, Bayesian Statistics, Causal Inference, and A/B Experimentation. Proven track record of architecting end-to-end analytical solutions—from linear programming and hierarchical Bayesian modeling to containerized, production-ready web applications (PyShiny) and scalable GCP data pipelines. Adept at transforming ambiguous business problems into scientifically grounded algorithms that drive measurable margin and operational improvements.
 
 ---
 
