@@ -54,7 +54,7 @@ Quantitative Data Scientist with over 8 years of experience bridging rigorous st
 
 **2024 Jul – Present | Warsaw, Poland**
 
-- Formulated and deployed hierarchical Bayesian predictive models and linear progrmming workflows (Project Charon) for real-time customer service contact allocation under operational uncertainty.
+- Formulated and deployed hierarchical Bayesian predictive models and linear programming workflows (Project Charon) for real-time customer service contact allocation under operational uncertainty.
 - Designed and statistically evaluated online A/B experimentation frameworks for the Best Price Guarantee program, quantifying causal impacts across millions of daily seller offer updates.
 - Maintained and optimized production machine learning pricing models to estimate price elasticity and refine automated product selection algorithms.
 - Engineered resilient MLOps pipelines on GCP (BigQuery, Airflow) with automated model monitoring, connecting sophisticated statistical algorithms with high-availability systems.
